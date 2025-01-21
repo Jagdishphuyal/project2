@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="c" class="collapse">collapse</h2> 
+        <button data-bs-toggle="collapse" href="#c">toggle</button>
+        <hr>
+        <h2>badges</h2>
+        <button class="btn btn-primary">badges <span class="badges text-bg-danger">5</span> </button>
+        <button class="btn btn-primary position-relative ">badges <span class="badges text-bg-danger position-absolute top-0 translate-middle start-100 ">5</span> </button>
+        
+        <hr>
+    <h2>breadcrumb</h2>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+
+      <hr>
+      <h3>card</h3>
+      <div class="card">
+        <div class="card header">
+            <h4>card header</h4>
+        
+
+        </div>
+        <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur officia, est similique eum veritatis quibusdam illum odio. Ipsum, necessitatibus dolorum tenetur adipisci eum quaerat possimus voluptate ducimus vitae esse.
+
+
+        </div>
+        <div class="card footer">footer</div>
+
+      </div>
+
+      <hr>
+      <h3>modal</h3>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cde">click me</button>
+      <div class="modal fade" id="cde">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">header</div>
+                <div class="modal-body">body</div>  
+                <div class="modal-footer">footer</div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
